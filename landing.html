@@ -856,7 +856,7 @@
       $.post("../actions/action_News.ashx", { ac: "SaveMessage", Language: "ch", tel1: tel1, phone: phone, wechar: wechar, whatsapp: whatsapp, tjcode: tjcode, type: "2" }, function (data) {
         if (data != "") {
           if (data.indexOf("true") >= 0) {
-            window.location.href = "successland.html";
+            window.location.href = window.location.hostname + "/successland.html";
           }
           else {
             alert(data);
