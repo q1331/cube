@@ -951,6 +951,41 @@ div#bg-container-4 {
     position: relative;
 }
 
+@media (min-width:640px) {
+    .swiper {
+        display: none;
+    }
+}
+
+@media (max-width:640px) {
+    .scrolling-wrapper {
+        display: none;
+    }
+
+    .left {
+        display: none;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .swiper {
+        position: relative;
+        top: 45%;
+        grid-row: 1;
+        width: 90%;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        height: 40vw;
+        --swiper-pagination-color: #b43938;
+        --swiper-pagination-bullet-size: 8px;
+    }
+
+
+
+}
+
 /*
 sec 5
 */
@@ -1000,7 +1035,6 @@ div#bg-container-5 {
     width: 30vw;
     overflow-wrap: normal;
     justify-content: space-around;
-
 }
 
 .pad-nar-txt-1 {
@@ -1020,6 +1054,32 @@ div#bg-container-5 {
     white-space: pre-wrap;
     font-size: 1.5vw;
     margin-bottom: 30vw;
+}
+
+@media (min-width:640px) {
+    .swiper2 {
+        display: none;
+    }
+}
+
+@media (max-width:640px) {
+    .swiper2 {
+        position: relative;
+        top: 45%;
+        grid-row: 1;
+        width: 90%;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        height: 45vw;
+        overflow: hidden;
+        --swiper-pagination-color: #b43938;
+        --swiper-pagination-bullet-size: 8px;
+    }
+
+    .swiper-pagination2 {
+        text-align: center;
+        position: absolute;
+    }
 }
 
 /*
@@ -1162,6 +1222,49 @@ div#bg-container-7 {
     top: 60%;
     right: 50%;
     cursor: pointer;
+}
+
+@media (min-width:640px) {
+    .swiper3 {
+        display: none;
+    }
+}
+
+@media (max-width:640px) {
+    .scrolling-wrapper-4 {
+        display: none;
+    }
+
+    .left4 {
+        display: none;
+    }
+
+    .right4 {
+        display: none;
+    }
+
+    .comments {
+        height: 35vw;
+    }
+
+    .swiper3 {
+        position: relative;
+        top: 34%;
+        grid-row: 1;
+        width: 90%;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        height: 40vw;
+        overflow-x: hidden;
+        overflow-y: visible;
+        --swiper-pagination-color: #b43938;
+        --swiper-pagination-bullet-size: 8px;
+    }
+
+    .swiper-pagination3 {
+        position: absolute;
+    }
+
 }
 
 /*
