@@ -283,6 +283,364 @@ div#submit-button input {
     color: #b43938;
 }
 
+/* phone input */
+.input dl {
+    height: 140px;
+    overflow-y: scroll;
+    background: #ffffff;
+    margin-top: 10px;
+    display: none;
+    position: absolute;
+    width: 300px;
+    z-index: 999;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    left: 10px;
+    top: 50px;
+    text-align: left;
+    font-family: "SourceHanSansCN-Normal", "Source Han Sans CN", sans-serif, Helvetica, "Helvetica Neue";
+}
+
+.input dl dd {
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 5px;
+    border-radius: 15px;
+    color: #666666;
+    white-space: nowrap;
+    font-family: "SourceHanSansCN-Normal", "Source Han Sans CN", sans-serif, Helvetica, "Helvetica Neue";
+}
+
+.div-box input {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.div-box .inptt {
+    width: 8vw;
+    height: 3vw;
+    position: absolute;
+    left: 4.5vw;
+    z-index: 999;
+    background: none;
+    border: none;
+}
+
+.div-box .inptt:focus {
+    outline-width: 0;
+}
+
+.div-box .lxfs {
+    display: block;
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    border: none;
+    border-radius: 1vw;
+    background-color: #f7f5f5;
+    height: 3.4vw;
+    border: 0.1vw solid #ccc;
+    text-indent: 7vw;
+}
+
+.div-box i {
+    position: absolute;
+    width: 2vw;
+    height: 1vw;
+    background: url(../images/jjt_03.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 15.8vw;
+    left: 8vw;
+}
+
+input[type="text"] {
+    color: #999999;
+    font-size: 1.5vw;
+    font-family: "SourceHanSansCN-Normal", "Source Han Sans CN", sans-serif, Helvetica, "Helvetica Neue";
+}
+
+@media (max-width:640px) {
+    div#bg-container {
+        background-image: url('../images/div1/bg.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: calc(1.2 * 100vw);
+        width: calc(1.1*100vw);
+    }
+
+    div#container1 {
+        position: relative;
+        top: 5vw;
+        align-items: center;
+        align-content: center;
+        justify-content: space-around;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    div#inquiry-form {
+        right: 0;
+        border-radius: 2vw;
+        background: white;
+        font-family: san;
+        margin-top: 15vw;
+        box-shadow: #444444 0.01em 0.01em 0.1em;
+    }
+
+    div#slogan {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    div#extra {
+        position: relative;
+        width: auto;
+        top: 10vw;
+        left: 10vw;
+        display: grid;
+        grid-template-rows: 2vw 10vw;
+        grid-template-columns: repeat(4, 20vw);
+        align-content: center;
+        align-items: center;
+    }
+
+    .extra-title {
+        position: relative;
+        left: -7vw;
+        color: #b43938;
+        text-align: center;
+        text-shadow: none;
+        font-size: 2.5vw;
+        grid-row: 1/1;
+        grid-column: 1/3;
+        padding-top: 0;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+
+    .goodies {
+        width: calc(100% * (1/2));
+        color: white;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        grid-row: 2/2;
+    }
+
+    div#three12 {
+        position: relative;
+        left: 32vw;
+        background-image: url(../images/div1/3-12.png);
+        height: 4vw;
+        width: 30vw;
+        margin-left: 18vw;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    #slogan1 {
+        color: white;
+        margin: 5px;
+        font-size: 10vw;
+        text-shadow: #444444 0.01em 0.01em 0.1em;
+    }
+
+    #slogan2 {
+        color: white;
+        margin: 5px;
+        font-size: 6vw;
+        text-shadow: #444444 0.01em 0.01em 0.1em;
+    }
+
+
+    #comp-logo {
+        position: relative;
+        right: 15vw;
+        height: 9vw;
+        margin-bottom: -10px;
+    }
+
+    #form-body {
+        text-align: center;
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .inputbox {
+        display: block;
+        width: 40vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5vw;
+        margin-bottom: 1vw;
+        border: none;
+        border-radius: 1vw;
+        background-color: #f7f5f5;
+        height: 5vw;
+        border: 0.1vw solid #ccc;
+    }
+
+    ::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #cccd;
+        font-size: 2vw;
+    }
+
+    div#three12 {
+        background-image: url(../images/div1/3-12.png);
+        height: 6vw;
+        width: 30vw;
+        margin-left: 30vw;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    #safe-logo {
+        position: relative;
+        display: inline;
+        height: 2vw;
+    }
+
+    #form-footer {
+        position: relative;
+        font-size: 2vw;
+        display: inline;
+    }
+
+    div#submit-button input {
+        margin-top: 1vw;
+        border-radius: 2vw;
+        background-color: red;
+        color: white;
+        width: 25vw;
+        height: 6vw;
+        cursor: pointer;
+        outline: none;
+        border-style: hidden;
+        font-size: 3vw;
+    }
+
+    .slogan31 {
+        position: relative;
+        bottom: 0.3vw;
+        right: 0.6vw;
+        font-size: 2vw;
+        color: #b43938;
+        flex: 1;
+    }
+
+    .slogan32 {
+        position: relative;
+        bottom: 0.3vw;
+        right: 3vw;
+        font-size: 2vw;
+        color: white;
+        flex: 2;
+    }
+
+    /* phone input */
+    .input dl {
+        height: 140px;
+        overflow-y: scroll;
+        background: #ffffff;
+        margin-top: 10px;
+        display: none;
+        position: absolute;
+        width: 300px;
+        z-index: 999;
+        border: 1px solid #e5e5e5;
+        border-radius: 5px;
+        left: 10px;
+        top: 50px;
+        text-align: left;
+        font-family: "SourceHanSansCN-Normal", "Source Han Sans CN", sans-serif, Helvetica, "Helvetica Neue";
+    }
+
+    .input dl dd {
+        font-size: 14px;
+        height: 35px;
+        line-height: 35px;
+        padding: 0 5px;
+        border-radius: 15px;
+        color: #666666;
+        white-space: nowrap;
+        font-family: "SourceHanSansCN-Normal", "Source Han Sans CN", sans-serif, Helvetica, "Helvetica Neue";
+    }
+
+    .div-box input {
+        width: 100%;
+        height: 50px;
+        box-sizing: border-box;
+        padding: 0 10px;
+        border: none;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+
+    .div-box .inptt {
+        position: relative;
+        top: 19vw;
+        width: 8vw;
+        height: 3vw;
+        position: absolute;
+        left: 4.5vw;
+        z-index: 999;
+        background: none;
+        border: none;
+    }
+
+    .div-box .lxfs {
+        display: block;
+        width: 41vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        border: none;
+        border-radius: 1vw;
+        background-color: #f7f5f5;
+        height: 6vw;
+        border: 0.1vw solid #ccc;
+        text-indent: 7vw;
+    }
+
+    .div-box i {
+        position: absolute;
+        width: 2vw;
+        height: 1vw;
+        background: url(../images/jjt_03.png) no-repeat;
+        background-position: center;
+        background-size: cover;
+        top: 20vw;
+        left: 11vw;
+    }
+
+    input[type="text"] {
+        color: #999999;
+        font-size: 2vw;
+        font-family: "SourceHanSansCN-Normal", "Source Han Sans CN", sans-serif, Helvetica, "Helvetica Neue";
+    }
+
+
+}
+
 /*
 section 2
 */
@@ -461,7 +819,7 @@ div#bg-container-3 {
 }
 
 #curr {
-    height: 40vw;
+    height: 50vw;
     position: relative;
     top: 20%;
 }
@@ -872,89 +1230,4 @@ div#bg-container-9 {
     font-weight: bold;
     position: relative;
     top: 2vw;
-}
-
-/* phone input */
-.input dl {
-    height: 140px;
-    overflow-y: scroll;
-    background: #ffffff;
-    margin-top: 10px;
-    display: none;
-    position: absolute;
-    width: 300px;
-    z-index: 999;
-    border: 1px solid #e5e5e5;
-    border-radius: 5px;
-    left: 10px;
-    top: 50px;
-    text-align: left;
-    font-family: "SourceHanSansCN-Normal", "Source Han Sans CN", sans-serif, Helvetica, "Helvetica Neue";
-}
-
-.input dl dd {
-    font-size: 14px;
-    height: 35px;
-    line-height: 35px;
-    padding: 0 5px;
-    border-radius: 15px;
-    color: #666666;
-    white-space: nowrap;
-    font-family: "SourceHanSansCN-Normal", "Source Han Sans CN", sans-serif, Helvetica, "Helvetica Neue";
-}
-
-.div-box input {
-    width: 100%;
-    height: 50px;
-    box-sizing: border-box;
-    padding: 0 10px;
-    border: none;
-    font-size: 15px;
-    border-radius: 10px;
-}
-
-.div-box .inptt {
-    width: 8vw;
-    height: 3vw;
-    position: absolute;
-    left: 4.5vw;
-    z-index: 999;
-    background: none;
-    border: none;
-}
-
-.div-box .inptt:focus {
-    outline-width: 0;
-}
-
-.div-box .lxfs {
-    display: block;
-    width: 30vw;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    border: none;
-    border-radius: 1vw;
-    background-color: #f7f5f5;
-    height: 3.4vw;
-    border: 0.1vw solid #ccc;
-    text-indent: 7vw;
-}
-
-.div-box i {
-    position: absolute;
-    width: 2vw;
-    height: 1vw;
-    background: url(../images/jjt_03.png) no-repeat;
-    background-position: center;
-    background-size: cover;
-    top: 16vw;
-    left: 10vw;
-}
-
-input[type="text"] {
-    color: #999999;
-    font-size: 2vw;
-    font-family: "SourceHanSansCN-Normal", "Source Han Sans CN", sans-serif, Helvetica, "Helvetica Neue";
 }
