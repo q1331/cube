@@ -368,7 +368,7 @@ input[type="text"] {
     font-family: "SourceHanSansCN-Normal", "Source Han Sans CN", sans-serif, Helvetica, "Helvetica Neue";
 }
 
-@media (max-width:640px) {
+@media (max-width:600px) {
     div#bg-container {
         background-image: url('../images/div1/bg.png');
         background-size: contain;
@@ -951,13 +951,13 @@ div#bg-container-4 {
     position: relative;
 }
 
-@media (min-width:640px) {
+@media (min-width:600px) {
     .swiper {
         display: none;
     }
 }
 
-@media (max-width:640px) {
+@media (max-width:600px) {
     .scrolling-wrapper {
         display: none;
     }
@@ -1056,13 +1056,13 @@ div#bg-container-5 {
     margin-bottom: 30vw;
 }
 
-@media (min-width:640px) {
+@media (min-width:600px) {
     .swiper2 {
         display: none;
     }
 }
 
-@media (max-width:640px) {
+@media (max-width:600px) {
     .swiper2 {
         position: relative;
         top: 45%;
@@ -1224,13 +1224,13 @@ div#bg-container-7 {
     cursor: pointer;
 }
 
-@media (min-width:640px) {
+@media (min-width:600px) {
     .swiper3 {
         display: none;
     }
 }
 
-@media (max-width:640px) {
+@media (max-width:600px) {
     .scrolling-wrapper-4 {
         display: none;
     }
