@@ -370,11 +370,24 @@ input[type="text"] {
 
 @media (max-width:600px) {
     div#bg-container {
-        background-image: url('../images/div1/bg.png');
+        background-image: url('../images/div1/bg2.png');
         background-size: contain;
         background-repeat: no-repeat;
-        height: calc(1.2 * 100vw);
-        width: calc(1.1*100vw);
+        height: calc(1.425 * 100vw);
+    }
+
+    #form-title-1 {
+        font-size: 5vw;
+        text-align: center;
+        margin: 0px;
+        margin-top: 1vw;
+    }
+
+    #form-title-2 {
+        font-size: 5vw;
+        color: #b43938;
+        text-align: center;
+        margin: 0px;
     }
 
     div#container1 {
@@ -393,7 +406,7 @@ input[type="text"] {
         border-radius: 2vw;
         background: white;
         font-family: san;
-        margin-top: 15vw;
+        margin-top: 35vw;
         box-shadow: #444444 0.01em 0.01em 0.1em;
     }
 
@@ -477,13 +490,13 @@ input[type="text"] {
 
     #form-body {
         text-align: center;
-        width: 50vw;
-        height: 50vw;
+        width: 70vw;
+        height: 60vw;
     }
 
     .inputbox {
         display: block;
-        width: 40vw;
+        width: 60vw;
         margin-left: auto;
         margin-right: auto;
         margin-top: 1.5vw;
@@ -491,14 +504,14 @@ input[type="text"] {
         border: none;
         border-radius: 1vw;
         background-color: #f7f5f5;
-        height: 5vw;
+        height: 6vw;
         border: 0.1vw solid #ccc;
     }
 
     ::placeholder {
         /* Chrome, Firefox, Opera, Safari 10.1+ */
         color: #cccd;
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
 
     div#three12 {
@@ -598,7 +611,7 @@ input[type="text"] {
 
     .div-box .inptt {
         position: relative;
-        top: 19vw;
+        top: 25.5vw;
         width: 8vw;
         height: 3vw;
         position: absolute;
@@ -610,15 +623,15 @@ input[type="text"] {
 
     .div-box .lxfs {
         display: block;
-        width: 41vw;
-        margin-top: 1vw;
+        width: 61vw;
+        margin-top: 1.5vw;
         margin-bottom: 1vw;
         border: none;
         border-radius: 1vw;
         background-color: #f7f5f5;
-        height: 6vw;
+        height: 6.1vw;
         border: 0.1vw solid #ccc;
-        text-indent: 7vw;
+        text-indent: 8vw;
     }
 
     .div-box i {
@@ -628,13 +641,13 @@ input[type="text"] {
         background: url(../images/jjt_03.png) no-repeat;
         background-position: center;
         background-size: cover;
-        top: 20vw;
+        top: 26.5vw;
         left: 11vw;
     }
 
     input[type="text"] {
         color: #999999;
-        font-size: 2vw;
+        font-size: 2.3vw;
         font-family: "SourceHanSansCN-Normal", "Source Han Sans CN", sans-serif, Helvetica, "Helvetica Neue";
     }
 
@@ -801,7 +814,7 @@ li+li {
     grid-row-start: 4;
     position: relative;
     top: 30vw;
-    height: 30%;
+    height: 15vw;
     left: 20%;
 }
 
