@@ -21,7 +21,6 @@ body {
 
 body {
     color: #292929;
-    font: 90% Roboto, Arial, sans-serif;
     font-weight: 300;
 }
 
@@ -29,26 +28,6 @@ h3 {
     padding: 5px 20px;
     margin: 0;
 }
-
-div#header {
-    position: relative;
-}
-
-div#header h1 {
-    height: 80px;
-    line-height: 80px;
-    margin: 0;
-    padding-left: 10px;
-}
-
-div#header a {
-    position: absolute;
-    right: 0;
-    top: 23px;
-    padding: 10px;
-    color: #006;
-}
-
 
 div#bg-container {
     background-image: url('../images/div1/bg.png');
@@ -81,6 +60,7 @@ div#slogan {
 
 
 div#extra {
+    font-family: san;
     width: 50vw;
     margin-left: auto;
     margin-right: 7vw;
@@ -197,7 +177,7 @@ div#three12 {
 
 .slogan31 {
     position: relative;
-    bottom: 0.35vw;
+    bottom: 0.39vw;
     right: 2vw;
     font-size: 1.5vw;
     color: #b43938;
@@ -206,7 +186,7 @@ div#three12 {
 
 .slogan32 {
     position: relative;
-    bottom: 0.35vw;
+    bottom: 0.55vw;
     right: 8.1vw;
     font-size: 1.5vw;
     color: white;
@@ -239,11 +219,12 @@ div#three12 {
     background-color: #f7f5f5;
     height: 3vw;
     border: 0.1vw solid #ccc;
+    text-indent: 2vw;
 }
 
 div#submit-button input {
     border-radius: 8vw;
-    background-color: #b43938;
+    background-color: red;
     color: white;
     width: 20vw;
     height: 4vw;
@@ -359,13 +340,13 @@ div#submit-button input {
     background-position: center;
     background-size: cover;
     top: 15.8vw;
-    left: 8vw;
+    left: 8.5vw;
 }
 
 input[type="text"] {
     color: #999999;
     font-size: 1.5vw;
-    font-family: "SourceHanSansCN-Normal", "Source Han Sans CN", sans-serif, Helvetica, "Helvetica Neue";
+    font-family: zhun;
 }
 
 @media (max-width:600px) {
@@ -563,7 +544,7 @@ input[type="text"] {
 
     .slogan32 {
         position: relative;
-        bottom: 0.3vw;
+        bottom: 0.35vw;
         right: 3vw;
         font-size: 2vw;
         color: white;
@@ -585,7 +566,7 @@ input[type="text"] {
         left: 10px;
         top: 50px;
         text-align: left;
-        font-family: "SourceHanSansCN-Normal", "Source Han Sans CN", sans-serif, Helvetica, "Helvetica Neue";
+        font-family: zhun;
     }
 
     .input dl dd {
@@ -596,7 +577,7 @@ input[type="text"] {
         border-radius: 15px;
         color: #666666;
         white-space: nowrap;
-        font-family: "SourceHanSansCN-Normal", "Source Han Sans CN", sans-serif, Helvetica, "Helvetica Neue";
+        font-family: zhun;
     }
 
     .div-box input {
@@ -648,7 +629,7 @@ input[type="text"] {
     input[type="text"] {
         color: #999999;
         font-size: 2.3vw;
-        font-family: "SourceHanSansCN-Normal", "Source Han Sans CN", sans-serif, Helvetica, "Helvetica Neue";
+        font-family: zhun;
     }
 
 
