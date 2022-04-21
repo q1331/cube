@@ -1380,3 +1380,9 @@ div#bg-container-9 {
     position: relative;
     top: 2vw;
 }
+
+.feature-pagination {
+    width: 4vw !important;
+    height: 1.5vw !important;
+    border-radius: 2vw !important;
+}

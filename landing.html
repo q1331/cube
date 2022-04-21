@@ -1057,20 +1057,23 @@
       direction: 'horizontal', // 垂直切换选项
       loop: false, // 循环模式选项
       slidesPerView: '3',
+      slidesPerGroup: 3,
       // 如果需要分页器
       pagination: {
         el: '.swiper-pagination',
-        type: 'bullets',
+        bulletClass: `swiper-pagination-bullet feature-pagination`,
       },
     })
     var mySwiper2 = new Swiper('.swiper2', {
       direction: 'horizontal', // 垂直切换选项
       loop: false, // 循环模式选项
       slidesPerView: '2',
+      slidesPerGroup: 2,
       spaceBetween: 20,
       // 如果需要分页器
       pagination: {
         el: '.swiper-pagination2',
+        bulletClass: `swiper-pagination-bullet feature-pagination`,
       },
     })
     var mySwiper3 = new Swiper('.swiper3', {
@@ -1078,9 +1081,11 @@
       loop: false, // 循环模式选项
       slidesPerView: '3',
       spaceBetween: 5,
+      slidesPerGroup: 3,
       // 如果需要分页器
       pagination: {
         el: '.swiper-pagination3',
+        bulletClass: `swiper-pagination-bullet feature-pagination`,
       },
     })        
   </script>
