@@ -120,6 +120,7 @@ div#three12 {
     margin-right: 2vw;
     text-align: center;
     width: 30vw;
+    margin-bottom: 3vw;
 }
 
 .extra-title {
@@ -237,8 +238,8 @@ div#submit-button input {
     cursor: pointer;
     outline: none;
     border-style: hidden;
-    margin-bottom: 3vw;
     font-size: 2vw;
+    margin-bottom: 1vw;
 }
 
 ::placeholder {
@@ -256,15 +257,15 @@ div#submit-button input {
     position: relative;
     display: inline;
     height: 1.5vw;
-    bottom: 2.7vw;
+    top: 0.5vw;
 }
 
 #form-footer {
     position: relative;
     font-size: 1.2vw;
     display: inline;
-    bottom: 3vw;
     color: #656565;
+    top: 0.3vw;
 }
 
 #guard {
@@ -757,7 +758,7 @@ ul {
 #ipad {
     position: relative;
     left: 10%;
-    bottom: 5%;
+    bottom: 15%;
     height: 40vw;
     grid-column-start: 1;
     grid-column-end: 2;
@@ -767,7 +768,7 @@ ul {
 
 #why {
     position: relative;
-    bottom: 10%;
+    bottom: 20%;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
@@ -790,7 +791,7 @@ li+li {
 }
 
 .narrative {
-    margin: 0 5% 5% 5%;
+    margin: 0 10% 10% 10%;
     font-family: zhun;
     font-size: 1.6vw;
     color: #444444;
@@ -803,7 +804,7 @@ li+li {
     grid-row-start: 3;
     grid-row-start: 4;
     position: relative;
-    top: 30vw;
+    top: 26vw;
     height: 15vw;
     left: 20%;
 }
@@ -900,17 +901,18 @@ div#bg-container-4 {
     display: inline-block;
     text-align: center;
     width: 30vw;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     margin-left: -3vw;
 }
 
 .teachers {
-    width: 40%;
+    width: 60%;
 }
 
 .names {
     color: brown;
     position: relative;
+    bottom: 2vw;
     font-size: 2vw;
 }
 
@@ -922,6 +924,7 @@ div#bg-container-4 {
     text-align: left;
     position: relative;
     left: 30%;
+    bottom: 3vw;
 }
 
 .teacher-desc {
@@ -1005,7 +1008,7 @@ div#bg-container-5 {
 }
 
 .pads {
-    width: 46vw;
+    width: 42vw;
     text-align: center;
 }
 
@@ -1020,12 +1023,12 @@ div#bg-container-5 {
     width: 35vw;
     height: 0.5vw;
     position: relative;
-    bottom: 34vw;
+    bottom: 31.5vw;
 }
 
 .pad-nar-title {
     position: relative;
-    bottom: 32vw;
+    bottom: 30vw;
     line-height: 1vw;
     color: brown;
     font-size: 1.5vw;
@@ -1042,20 +1045,20 @@ div#bg-container-5 {
 
 .pad-nar-txt-1 {
     text-align: left;
-    width: 20vw;
+    width: 26vw;
     white-space: pre-wrap;
     font-size: 1.5vw;
-    bottom: 33.5vw;
-    left: 7vw;
+    bottom: 31.5vw;
+    left: 4vw;
     position: relative;
 }
 
 .pad-nar-txt-2 {
     text-align: left;
-    width: 20vw;
+    width: 29vw;
     position: relative;
-    bottom: 33.5vw;
-    left: 10vw;
+    bottom: 31.5vw;
+    left: 9vw;
     white-space: pre-wrap;
     font-size: 1.5vw;
     margin-bottom: 30vw;
@@ -1063,10 +1066,10 @@ div#bg-container-5 {
 
 .pad-nar-txt-3 {
     text-align: left;
-    width: 20vw;
+    width: 29vw;
     position: relative;
-    bottom: 35.5vw;
-    left: 10vw;
+    bottom: 33.5vw;
+    left: 9vw;
     white-space: pre-wrap;
     font-size: 1.5vw;
     margin-bottom: 30vw;
@@ -1160,7 +1163,7 @@ div#bg-container-6 {
 
 .scrolling-wrapper2 {
     position: relative;
-    top: 30%;
+    top: 25vw;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
@@ -1186,6 +1189,7 @@ div#bg-container-6 {
     margin-block-start: 0%;
     margin-block-end: 3%;
     font-size: 1.6vw;
+    color: #656565;
 }
 
 /*
@@ -1193,7 +1197,7 @@ sec7
 */
 
 div#bg-container-7 {
-    background-image: url(../images/div7/bg2.png);
+    background-image: url(../images/div7/bg.png);
     background-size: cover;
     justify-items: center;
     justify-content: center;
@@ -1385,7 +1389,7 @@ div#bg-container-9 {
     width: 100%;
     font-weight: bold;
     position: relative;
-    top: 2vw;
+    top: 2.3vw;
 }
 
 .feature-pagination {
