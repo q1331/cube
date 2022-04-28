@@ -34,19 +34,21 @@ div#bg-container {
 
 #slogan1 {
     color: white;
-    margin: 5px;
-    font-size: 6vw;
+    margin: 3px;
+    font-size: 5.5vw;
     text-shadow: #444444 0.07em 0.07em 0.07em;
 }
 
 #slogan2 {
     color: white;
     margin: 5px;
-    font-size: 3vw;
+    font-size: 2.8vw;
     text-shadow: #444444 0.07em 0.07em 0.07em;
 }
 
 div#slogan {
+    position: relative;
+    bottom: 3vw;
     font-family: arb;
     text-align: left;
     margin-left: 1vw;
@@ -70,9 +72,8 @@ div#inquiry-form {
     position: relative;
     right: 2vw;
     flex: 1;
-    border-radius: 2vw;
+    border-radius: 1.5vw;
     background: white;
-    font-family: arl;
     margin-top: 6vw;
 }
 
@@ -91,8 +92,8 @@ div#container1 {
 
 div#three12 {
     background-image: url(../images/div1/3-12.png);
-    height: 7vw;
-    width: 40vw;
+    height: 5.3vw;
+    width: 35vw;
     margin-left: 25vw;
     background-size: contain;
     background-repeat: no-repeat;
@@ -111,8 +112,11 @@ div#three12 {
 }
 
 #form-body {
+    margin-left: 2vw;
+    margin-right: 2vw;
     text-align: center;
-    width: 35vw;
+    width: 30vw;
+    margin-bottom: 3vw;
 }
 
 .extra-title {
@@ -125,17 +129,19 @@ div#three12 {
 }
 
 #form-title-1 {
-    font-size: 3vw;
+    font-size: 2.5vw;
     text-align: center;
     margin: 0px;
     margin-top: 1vw;
+    font-family: arb;
 }
 
 #form-title-2 {
-    font-size: 3vw;
+    font-size: 2.5vw;
     color: #b43938;
     text-align: center;
     margin: 0px;
+    font-family: arb;
 }
 
 #jie {
@@ -155,7 +161,7 @@ div#three12 {
 }
 
 #ben {
-    background-image: url('../images/div1/fen.png');
+    background-image: url('../images/div1/ben.png');
     background-size: cover;
     height: 10vw;
     width: 21vw;
@@ -173,17 +179,17 @@ div#three12 {
 
 .slogan31 {
     position: relative;
-    bottom: 0.35vw;
-    right: 1.5vw;
+    bottom: 0.9vw;
+    right: 1.6vw;
     font-size: 2vw;
-    color: red;
+    color: #b43938;
     flex: 1;
 }
 
 .slogan32 {
     position: relative;
-    bottom: 0.3vw;
-    right: 6.3vw;
+    bottom: 0.9vw;
+    right: 5.3vw;
     font-size: 2vw;
     color: white;
     flex: 2;
@@ -191,16 +197,17 @@ div#three12 {
 
 .goodies-text {
     width: 8vw;
-    padding: 1vw 0 0 0;
+    padding: 1vw 0 0 0.5vw;
     font-size: 1.7vw;
 }
 
 .goodies-icon-text {
+    position: relative;
+    bottom: 1vw;
     width: 5vw;
-    height: 1.5vw;
     align-self: flex-end;
-    padding: 0 0 0 2.5vw;
-    font-size: 2vw;
+    padding: 6.5vw 0 0 2.5vw;
+    font-size: 1.5vw;
 }
 
 .inputbox {
@@ -215,20 +222,23 @@ div#three12 {
     background-color: #f7f5f5;
     height: 3vw;
     border: 0.1vw solid #ccc;
-    text-indent: 2vw;
+    text-indent: 1vw;
 }
 
 div#submit-button input {
+    position: relative;
+    top: 1vw;
     border-radius: 8vw;
-    background-color: red;
+    background-color: #ee3b1e;
     color: white;
     width: 20vw;
     height: 4vw;
     cursor: pointer;
     outline: none;
     border-style: hidden;
-    margin-bottom: 3vw;
+    margin-bottom: 1vw;
     font-size: 2vw;
+    font-family: arb;
 }
 
 ::placeholder {
@@ -238,22 +248,24 @@ div#submit-button input {
 }
 
 #comp-logo {
-    height: 8vw;
-    margin-bottom: -10px;
+    height: 7vw;
+    margin-bottom: -2vw;
 }
 
 #safe-logo {
     position: relative;
     display: inline;
     height: 1.5vw;
-    bottom: 2.7vw;
+    top: 0.5vw;
 }
 
 #form-footer {
     position: relative;
     font-size: 1.2vw;
     display: inline;
-    bottom: 3vw;
+    color: #656565;
+    top: 0.3vw;
+    font: arl;
 }
 
 #guard {
@@ -268,12 +280,12 @@ div#submit-button input {
     margin-top: 10px;
     display: none;
     position: absolute;
-    width: 300px;
+    width: 200px;
     z-index: 999;
     border: 1px solid #e5e5e5;
     border-radius: 5px;
     left: 10px;
-    top: 50px;
+    top: 16vw;
     text-align: left;
     font-family: arl;
 }
@@ -301,9 +313,9 @@ div#submit-button input {
 
 .div-box .inptt {
     width: 8vw;
-    height: 3vw;
+    height: 3.5vw;
     position: absolute;
-    left: 3vw;
+    left: 2vw;
     z-index: 999;
     background: none;
     border: none;
@@ -323,9 +335,9 @@ div#submit-button input {
     border: none;
     border-radius: 1vw;
     background-color: #f7f5f5;
-    height: 3.4vw;
+    height: 3.5vw;
     border: 0.1vw solid #ccc;
-    text-indent: 7vw;
+    text-indent: 5.5vw;
 }
 
 .div-box i {
@@ -335,8 +347,8 @@ div#submit-button input {
     background: url(../images/jjt_03.png) no-repeat;
     background-position: center;
     background-size: cover;
-    top: 14.5vw;
-    left: 8vw;
+    top: 13.5vw;
+    left: 6vw;
 }
 
 input[type="text"] {
@@ -635,7 +647,7 @@ section 2
 div#bg-container-2 {
     background-image: url(../images/div2/bg.png);
     background-size: cover;
-    height: calc(0.927 * 100vw);
+    height: calc(1.014 * 100vw);
     display: grid;
     justify-items: center;
     grid-template-columns: 50% 50%;
@@ -741,7 +753,7 @@ ul {
 #ipad {
     position: relative;
     left: 10%;
-    bottom: 5%;
+    bottom: 5vw;
     height: 40vw;
     grid-column-start: 1;
     grid-column-end: 2;
@@ -751,19 +763,19 @@ ul {
 
 #why {
     position: relative;
-    bottom: 10%;
+    bottom: 7vw;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-start: 4;
-    width: 70%;
+    width: 60%;
     font-family: arl;
     color: #370100;
-    font-size: 2vw;
+    font-size: 1.7vw;
 }
 
 li+li {
-    margin-top: 2%;
+    margin-top: 1%;
 }
 
 .narrative-title {
@@ -774,7 +786,7 @@ li+li {
 }
 
 .narrative {
-    margin: 0 5% 5% 5%;
+    margin: 0 10% 5% 10%;
     font-family: arl;
     font-size: 2vw;
     color: #444444;
@@ -787,7 +799,7 @@ li+li {
     grid-row-start: 3;
     grid-row-start: 4;
     position: relative;
-    top: 37vw;
+    top: 28vw;
     height: 15vw;
     left: 20%;
 }
@@ -808,7 +820,7 @@ div#bg-container-3 {
 #curr {
     height: 50vw;
     position: relative;
-    top: 20%;
+    top: 30%;
 }
 
 #nt-cur {
@@ -823,7 +835,7 @@ sec4
 div#bg-container-4 {
     background-image: url(../images/div4/bg.png);
     background-size: cover;
-    height: calc(0.805 * 100vw);
+    height: calc(0.881 * 100vw);
     display: grid;
     justify-items: center;
     grid-template-rows: 100%;
@@ -889,13 +901,15 @@ div#bg-container-4 {
 }
 
 .teachers {
-    width: 40%;
+    width: 60%;
 }
 
 .names {
     color: brown;
     position: relative;
     font-size: 2vw;
+    font-family: arb;
+    bottom: 2vw;
 }
 
 .teach-exp {
@@ -906,6 +920,7 @@ div#bg-container-4 {
     text-align: left;
     position: relative;
     left: 30%;
+    bottom: 3vw;
 }
 
 .teacher-desc {
@@ -927,6 +942,7 @@ div#bg-container-4 {
     width: 30vw;
     height: 10vw;
     display: block;
+    font-family: arb;
 }
 
 .get-free {
@@ -985,11 +1001,11 @@ div#bg-container-5 {
     grid-template-rows: 100%;
     grid-template-columns: 5% 90% 5%;
     font-family: arl;
-    height: calc(0.929 * 100vw);
+    height: calc(1 * 100vw);
 }
 
 .pads {
-    width: 46vw;
+    width: 42vw;
     text-align: center;
 }
 
@@ -1004,12 +1020,12 @@ div#bg-container-5 {
     width: 35vw;
     height: 0.5vw;
     position: relative;
-    bottom: 34vw;
+    bottom: 36vw;
 }
 
 .pad-nar-title {
     position: relative;
-    bottom: 32vw;
+    bottom: 35vw;
     line-height: 1vw;
     color: brown;
     font-size: 1.5vw;
@@ -1047,13 +1063,27 @@ div#bg-container-5 {
 
 .pad-nar-txt-3 {
     text-align: left;
-    width: 30vw;
+    width: 26vw;
     position: relative;
     bottom: 34vw;
-    left: 10.5vw;
+    left: 8vw;
     white-space: normal;
     font-size: 1.4vw;
     margin-bottom: 30vw;
+}
+
+.scrolling-wrapper-div5 {
+    position: relative;
+    top: 42vw;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    grid-row: 1;
+    width: 90%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 50vw;
 }
 
 @media (min-width:600px) {
@@ -1176,8 +1206,8 @@ div#bg-container-6 {
 
 .feature-desc {
     margin-block-start: 0%;
-    margin-block-end: 3%;
-    font-size: 1.6vw;
+    margin-block-end: 1vw;
+    font-size: 1.5vw;
 }
 
 /*
@@ -1332,6 +1362,7 @@ div#bg-container-8 {
 
 #safe-payment {
     font-size: 3vw;
+    font-family: arb;
     color: #444444;
 }
 
@@ -1371,13 +1402,13 @@ div#bg-container-9 {
 
 
 .get-free-2 {
-    font-family: arl;
+    font-family: arb;
     color: #b43938;
     font-size: 2vw;
     width: 100%;
     font-weight: bold;
     position: relative;
-    top: 2vw;
+    top: 2.3vw;
 }
 
 .feature-pagination {
