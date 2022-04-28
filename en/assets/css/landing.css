@@ -1171,6 +1171,7 @@ div#bg-container-6 {
 }
 
 .card3 {
+    width: 25vw;
     display: inline-block;
     text-align: center;
 }
@@ -1361,8 +1362,8 @@ div#bg-container-8 {
 }
 
 #safe-payment {
-    font-size: 3vw;
     font-family: arb;
+    font-size: 3vw;
     color: #444444;
 }
 
