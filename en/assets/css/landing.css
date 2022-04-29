@@ -342,13 +342,13 @@ div#submit-button input {
 
 .div-box i {
     position: absolute;
-    width: 2vw;
-    height: 1vw;
+    width: 0.2vw;
+    height: 3.4vw;
     background: url(../images/jjt_03.png) no-repeat;
     background-position: center;
     background-size: cover;
-    top: 13.5vw;
-    left: 6vw;
+    top: 12.2vw;
+    left: 7.5vw;
 }
 
 input[type="text"] {
@@ -627,12 +627,12 @@ input[type="text"] {
 
     .div-box i {
         position: absolute;
-        width: 2vw;
-        height: 1vw;
+        width: 0.2vw;
+        height: 6.9vw;
         background: url(../images/jjt_03.png) no-repeat;
         background-position: center;
         background-size: cover;
-        top: 35.5vw;
+        top: 32.5vw;
         left: 16vw;
     }
 
