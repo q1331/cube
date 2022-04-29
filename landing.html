@@ -698,10 +698,12 @@
       <div class="card">
         <img class="teachers" src="assets/images/div4/wangyanshuang.png"></img>
         <p class="names">王彦双</p>
-        <p class="teacher-desc"><span class="teach-exp">10年</span>教龄</p>
-        <p class="teacher-desc">普通话一乙证书</p>
-        <p class="teacher-desc">国家语文教师资格证</p>
-        <p class="teacher-desc">华南师范大学 本科</p>
+        <div class="teacher-desc-div">
+          <p class="teacher-desc"><span class="teach-exp">10年</span>教龄</p>
+          <p class="teacher-desc">普通话一乙证书</p>
+          <p class="teacher-desc">国家语文教师资格证</p>
+          <p class="teacher-desc">华南师范大学 本科</p>
+        </div>
       </div>
     </div>
     <img class="right" src="assets/images/div4/right.png" onclick="slide('right', 'scroller-1')" />
@@ -789,7 +791,8 @@
         <img class="bar" src="assets/images/div5/bar.png"></img>
         <div class="pad-nar">
           <div class="pad-nar-txt-1">课程适用于日常中文交流无障碍，希望学习拼音、常见汉字、想进一步了解中国传统文化的海外少儿。</div>
-          <div class="pad-nar-txt-2">对标YCT大纲，课程设计从字到词，提高学生的汉语交际能力，帮助学生在学习的同时了解中国传统文化。本课程覆盖内容包括：汉字书写笔顺、汉语拼音、国学经典启蒙。</div>
+          <div class="pad-nar-txt-2">对标YCT大纲，课程设计从字到词，提高学生的汉语交际能力，帮助学生在学习的同时了解中国传统文化。本课程覆盖内容包括：汉字书写笔顺、汉语拼音、国学经典启蒙。
+          </div>
         </div>
       </div>
       <div class="card2">
@@ -1079,9 +1082,9 @@
     var mySwiper3 = new Swiper('.swiper3', {
       direction: 'horizontal', // 垂直切换选项
       loop: false, // 循环模式选项
-      slidesPerView: '3',
-      spaceBetween: 5,
-      slidesPerGroup: 3,
+      slidesPerView: '2',
+      spaceBetween: 0,
+      slidesPerGroup: 2,
       // 如果需要分页器
       pagination: {
         el: '.swiper-pagination3',
