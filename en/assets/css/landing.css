@@ -361,7 +361,7 @@ input[type="text"] {
     #slogan1 {
         color: white;
         margin: 5px;
-        font-size: 9vw;
+        font-size: 8.5vw;
         text-align: left;
         text-shadow: #444444 0.07em 0.07em 0.07em;
     }
@@ -386,21 +386,22 @@ input[type="text"] {
         background-image: url('../images/div1/bg2.png');
         background-size: contain;
         background-repeat: no-repeat;
-        height: calc(1.425 * 100vw);
+        height: calc(1.625 * 100vw);
     }
 
     #form-title-1 {
-        font-size: 5vw;
+        font-size: 6vw;
         text-align: center;
         margin: 0px;
-        margin-top: 1vw;
+        margin-top: 3vw;
     }
 
     #form-title-2 {
-        font-size: 5vw;
+        font-size: 6vw;
         color: #b43938;
         text-align: center;
-        margin: 0px;
+        margin: 1vw;
+        margin-bottom: 5vw;
     }
 
     div#container1 {
@@ -419,7 +420,7 @@ input[type="text"] {
         border-radius: 2vw;
         background: white;
         font-family: arl;
-        margin-top: 15vw;
+        margin-top: 20vw;
         box-shadow: #444444 0.01em 0.01em 0.1em;
     }
 
@@ -431,7 +432,7 @@ input[type="text"] {
     div#extra {
         position: relative;
         width: auto;
-        top: 22vw;
+        top: 10vw;
         left: 10vw;
         display: grid;
         grid-template-rows: 2vw 10vw;
@@ -441,6 +442,7 @@ input[type="text"] {
     }
 
     .extra-title {
+        font-family: arb;
         position: relative;
         left: -2vw;
         color: #b43938;
@@ -467,15 +469,15 @@ input[type="text"] {
 
     #comp-logo {
         position: relative;
-        right: 29vw;
-        height: 9vw;
-        margin-bottom: -10px;
+        right: 24vw;
+        height: 12vw;
+        margin-bottom: -4vw;
     }
 
     #form-body {
         text-align: center;
-        width: 70vw;
-        height: 60vw;
+        width: 75vw;
+        height: 75vw;
     }
 
     .inputbox {
@@ -483,19 +485,19 @@ input[type="text"] {
         width: 60vw;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 1.5vw;
-        margin-bottom: 1vw;
+        margin-top: 2vw;
+        margin-bottom: 1.5vw;
         border: none;
         border-radius: 1vw;
         background-color: #f7f5f5;
-        height: 6vw;
+        height: 7vw;
         border: 0.1vw solid #ccc;
     }
 
     ::placeholder {
         /* Chrome, Firefox, Opera, Safari 10.1+ */
         color: #cccd;
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
 
     div#three12 {
@@ -514,42 +516,44 @@ input[type="text"] {
     #safe-logo {
         position: relative;
         display: inline;
-        height: 2vw;
+        height: 3vw;
+        top: 2vw;
     }
 
     #form-footer {
         position: relative;
-        font-size: 2vw;
+        font-size: 3vw;
         display: inline;
+        top: 2vw;
     }
 
     div#submit-button input {
         margin-top: 1vw;
         border-radius: 2vw;
-        background-color: red;
+        background-color: #ee3b1e;
         color: white;
-        width: 25vw;
-        height: 6vw;
+        width: 40vw;
+        height: 8vw;
         cursor: pointer;
         outline: none;
         border-style: hidden;
-        font-size: 3vw;
+        font-size: 4.5vw;
     }
 
     .slogan31 {
         position: relative;
-        bottom: 0vw;
+        bottom: 0.8vw;
         right: 0.6vw;
-        font-size: 2.2vw;
+        font-size: 2.4vw;
         color: red;
         flex: 1;
     }
 
     .slogan32 {
         position: relative;
-        bottom: 0vw;
+        bottom: 0.8vw;
         right: 2.3vw;
-        font-size: 2.2vw;
+        font-size: 2.4vw;
         color: white;
         flex: 2;
     }
@@ -567,7 +571,7 @@ input[type="text"] {
         border: 1px solid #e5e5e5;
         border-radius: 5px;
         left: 10px;
-        top: 50px;
+        top: 39vw;
         text-align: left;
         font-family: arl;
     }
@@ -595,11 +599,11 @@ input[type="text"] {
 
     .div-box .inptt {
         position: relative;
-        top: 23.5vw;
+        top: 34.5vw;
         width: 8vw;
         height: 3vw;
         position: absolute;
-        left: 4.5vw;
+        left: 9.5vw;
         z-index: 999;
         background: none;
         border: none;
@@ -609,13 +613,14 @@ input[type="text"] {
 
     .div-box .lxfs {
         display: block;
-        width: 62vw;
-        margin-top: 1.5vw;
-        margin-bottom: 1vw;
+        width: 61vw;
+        margin-top: 2vw;
+        margin-bottom: 1.5vw;
+        margin-left: 7vw;
         border: none;
         border-radius: 1vw;
         background-color: #f7f5f5;
-        height: 6.1vw;
+        height: 7vw;
         border: 0.1vw solid #ccc;
         text-indent: 8.5vw;
     }
@@ -627,13 +632,13 @@ input[type="text"] {
         background: url(../images/jjt_03.png) no-repeat;
         background-position: center;
         background-size: cover;
-        top: 25vw;
-        left: 12vw;
+        top: 35.5vw;
+        left: 16vw;
     }
 
     input[type="text"] {
         color: #999999;
-        font-size: 2.3vw;
+        font-size: 2.6vw;
         font-family: arl;
     }
 
@@ -779,11 +784,11 @@ li+li {
 }
 
 .narrative-title {
-    margin-top: 20%;
     font-family: arb;
     font-size: 4vw;
     color: #b43938;
 }
+
 
 .narrative {
     margin: 0 10% 5% 10%;
@@ -802,6 +807,15 @@ li+li {
     top: 28vw;
     height: 15vw;
     left: 20%;
+}
+
+.narrative-title-why {
+    position: relative;
+    top: 10vw;
+    right: 21vw;
+    font-family: arb;
+    font-size: 4vw;
+    color: #b43938;
 }
 
 /*
@@ -901,7 +915,7 @@ div#bg-container-4 {
 }
 
 .teachers {
-    width: 60%;
+    width: 17vw;
 }
 
 .names {
@@ -919,8 +933,9 @@ div#bg-container-4 {
 .teacher-desc-div {
     text-align: left;
     position: relative;
-    left: 30%;
+    left: 10vw;
     bottom: 3vw;
+    width: 20vw;
 }
 
 .teacher-desc {
@@ -946,7 +961,7 @@ div#bg-container-4 {
 }
 
 .get-free {
-    font-family: arl;
+    font-family: arb;
     color: white;
     font-size: 2.5vw;
     width: 100%;
@@ -961,6 +976,17 @@ div#bg-container-4 {
 }
 
 @media (max-width:600px) {
+    div#bg-container-4 {
+        background-image: url(../images/div4/bg-mobl.png);
+        background-size: cover;
+        height: calc(0.989 * 100vw);
+        display: grid;
+        justify-items: center;
+        grid-template-rows: 100%;
+        grid-template-columns: 5% 90% 5%;
+        font-family: arl;
+    }
+
     .scrolling-wrapper {
         display: none;
     }
@@ -975,7 +1001,7 @@ div#bg-container-4 {
 
     .swiper {
         position: relative;
-        top: 50%;
+        top: 45vw;
         grid-row: 1;
         width: 90%;
         grid-column-start: 2;
@@ -983,10 +1009,9 @@ div#bg-container-4 {
         height: 40vw;
         --swiper-pagination-color: #b43938;
         --swiper-pagination-bullet-size: 8px;
+        --swiper-pagination-bullet-inactive-color: white;
+        --swiper-pagination-bullet-inactive-opacity: 1;
     }
-
-
-
 }
 
 /*
@@ -1093,17 +1118,42 @@ div#bg-container-5 {
 }
 
 @media (max-width:600px) {
+    div#bg-container-5 {
+        background-image: url(../images/div5/bg-mobl.png);
+        background-size: cover;
+        display: grid;
+        justify-items: center;
+        grid-template-rows: 100%;
+        grid-template-columns: 5% 90% 5%;
+        font-family: arl;
+        height: calc(1.208 * 100vw);
+    }
+
+
+    .bar {
+        width: 35vw;
+        height: 0.5vw;
+        position: relative;
+        bottom: 39vw;
+    }
+
     .swiper2 {
         position: relative;
-        top: 45%;
+        top: 50vw;
         grid-row: 1;
         width: 100%;
         grid-column-start: 2;
         grid-column-end: 3;
-        height: 45vw;
+        height: 50vw;
         overflow: hidden;
         --swiper-pagination-color: #b43938;
         --swiper-pagination-bullet-size: 8px;
+        --swiper-pagination-bullet-inactive-color: white;
+        --swiper-pagination-bullet-inactive-opacity: 1;
+    }
+
+    .scrolling-wrapper-div5 {
+        display: none;
     }
 
     .pads {
@@ -1114,6 +1164,7 @@ div#bg-container-5 {
     .swiper-pagination2 {
         text-align: center;
         position: absolute;
+        top: 47vw;
     }
 
     .pad-nar-txt-1 {
@@ -1121,7 +1172,7 @@ div#bg-container-5 {
         width: 21vw;
         white-space: normal;
         font-size: 1.4vw;
-        bottom: 34vw;
+        bottom: 38vw;
         left: 6vw;
         position: relative;
     }
@@ -1130,7 +1181,7 @@ div#bg-container-5 {
         text-align: left;
         width: 20vw;
         position: relative;
-        bottom: 34vw;
+        bottom: 38vw;
         left: 7vw;
         white-space: normal;
         font-size: 1.4vw;
@@ -1141,7 +1192,7 @@ div#bg-container-5 {
         text-align: left;
         width: 30vw;
         position: relative;
-        bottom: 34vw;
+        bottom: 38vw;
         left: 10.5vw;
         white-space: normal;
         font-size: 1.4vw;
@@ -1150,11 +1201,15 @@ div#bg-container-5 {
 
     .pad-nar-title {
         position: relative;
-        bottom: 31vw;
+        bottom: 37vw;
         line-height: 1vw;
         color: brown;
         font-size: 1.5vw;
     }
+}
+
+.scrolling-wrapper-div5::-webkit-scrollbar {
+    display: none;
 }
 
 /*
@@ -1209,6 +1264,37 @@ div#bg-container-6 {
     margin-block-start: 0%;
     margin-block-end: 1vw;
     font-size: 1.5vw;
+}
+
+@media (max-width:600px) {
+    .scrolling-wrapper2 {
+        position: relative;
+        top: 30%;
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+    }
+
+    .card3 {
+        width: 25vw;
+        margin: 3vw;
+        margin-right: 5vw;
+        margin-left: 5vw;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .feature-desc {
+        position: relative;
+        top: -3vw;
+        margin-block-start: 0%;
+        margin-block-end: 1vw;
+        font-size: 1.5vw;
+    }
 }
 
 /*
@@ -1307,6 +1393,20 @@ div#bg-container-7 {
 }
 
 @media (max-width:600px) {
+    div#bg-container-7 {
+        background-image: url(../images/div7/bg-mobl.png);
+        background-size: cover;
+        justify-items: center;
+        justify-content: center;
+        font-family: arl;
+        text-align: center;
+        height: calc(1.348 * 100vw);
+        display: grid;
+        grid-template-rows: 100%;
+        grid-template-columns: 5% 90% 5%;
+        text-align: center;
+    }
+
     .scrolling-wrapper-4 {
         display: none;
     }
@@ -1320,27 +1420,59 @@ div#bg-container-7 {
     }
 
     .comments {
-        height: 35vw;
+        height: 50vw;
     }
 
     .swiper3 {
         position: relative;
-        top: 34%;
+        top: 65vw;
         grid-row: 1;
         width: 90vw;
         grid-column-start: 2;
         grid-column-end: 3;
-        height: 40vw;
+        height: 55vw;
         overflow-x: hidden;
         overflow-y: visible;
         --swiper-pagination-color: #b43938;
         --swiper-pagination-bullet-size: 8px;
+        --swiper-pagination-bullet-inactive-color: white;
+        --swiper-pagination-bullet-inactive-opacity: 1;
     }
 
     .swiper-pagination3 {
         position: absolute;
     }
 
+    .card4 {
+        display: inline-block;
+        text-align: center;
+        margin-left: -0.5vw;
+    }
+
+    #trust {
+        position: relative;
+        bottom: 10vw;
+        width: 25vw;
+    }
+
+    #fb {
+        position: relative;
+        bottom: 10vw;
+        width: 15vw;
+        margin-left: 2vw;
+    }
+
+    #veri {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
 }
 
 /*
@@ -1363,8 +1495,8 @@ div#bg-container-8 {
 
 #safe-payment {
     font-family: arb;
-    font-size: 3vw;
-    color: #444444;
+    font-size: 4vw;
+    color: #c52a31;
 }
 
 .pay-icon {
@@ -1383,7 +1515,7 @@ div#bg-container-9 {
     font-family: arl;
     text-align: center;
     background-color: #b43938;
-    height: 7vw;
+    height: 11vw;
 }
 
 
@@ -1393,23 +1525,22 @@ div#bg-container-9 {
     text-align: center;
     background-image: url(../images/div9/button.png);
     background-repeat: no-repeat;
-    background-size: 30vw 7vw;
-    width: 30vw;
-    height: 7vw;
+    background-size: 37vw 10vw;
+    width: 37vw;
+    height: 10vw;
     margin-left: auto;
     margin-right: auto;
-    bottom: 0.15vw;
 }
 
 
 .get-free-2 {
     font-family: arb;
     color: #b43938;
-    font-size: 2vw;
+    font-size: 3vw;
     width: 100%;
     font-weight: bold;
     position: relative;
-    top: 2.3vw;
+    top: 2.9vw;
 }
 
 .feature-pagination {
