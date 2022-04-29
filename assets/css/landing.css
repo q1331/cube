@@ -938,7 +938,7 @@ div#bg-container-4 {
 
 #to-top {
     position: relative;
-    top: 100%;
+    top: 85vw;
     grid-row: 1;
     grid-column-start: 1;
     grid-column-end: 4;
@@ -1004,6 +1004,22 @@ div#bg-container-4 {
         --swiper-pagination-bullet-inactive-opacity: 1;
     }
 
+    #to-top {
+        position: relative;
+        top: 105vw;
+        grid-row: 1;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        cursor: pointer;
+        text-align: center;
+        background-image: url(../images/div4/receive.png);
+        background-repeat: no-repeat;
+        background-size: 30vw 8vw;
+        width: 30vw;
+        height: 10vw;
+        display: block;
+    }
+
 
 
 }
@@ -1039,12 +1055,12 @@ div#bg-container-5 {
     width: 35vw;
     height: 0.5vw;
     position: relative;
-    bottom: 31.5vw;
+    bottom: 30vw;
 }
 
 .pad-nar-title {
     position: relative;
-    bottom: 30vw;
+    bottom: 29vw;
     line-height: 1vw;
     color: brown;
     font-size: 1.5vw;
@@ -1064,7 +1080,7 @@ div#bg-container-5 {
     width: 26vw;
     white-space: pre-wrap;
     font-size: 1.5vw;
-    bottom: 31.5vw;
+    bottom: 29vw;
     left: 4vw;
     position: relative;
 }
@@ -1073,7 +1089,7 @@ div#bg-container-5 {
     text-align: left;
     width: 29vw;
     position: relative;
-    bottom: 31.5vw;
+    bottom: 29vw;
     left: 9vw;
     white-space: pre-wrap;
     font-size: 1.5vw;
@@ -1084,7 +1100,7 @@ div#bg-container-5 {
     text-align: left;
     width: 29vw;
     position: relative;
-    bottom: 33.5vw;
+    bottom: 30.5vw;
     left: 9vw;
     white-space: pre-wrap;
     font-size: 1.5vw;
@@ -1166,6 +1182,21 @@ div#bg-container-5 {
         font-size: 1.5vw;
         margin-bottom: 30vw;
     }
+
+    .bar {
+        width: 35vw;
+        height: 0.5vw;
+        position: relative;
+        bottom: 32vw;
+    }
+
+    .pad-nar-title {
+        position: relative;
+        bottom: 30vw;
+        line-height: 1vw;
+        color: brown;
+        font-size: 1.5vw;
+    }
 }
 
 /*
@@ -1220,6 +1251,16 @@ div#bg-container-6 {
     margin-block-end: 3%;
     font-size: 1.6vw;
     color: #656565;
+}
+
+@media (min-width:600px) {
+    .card3 {
+        display: inline-block;
+        text-align: center;
+        margin-left: 3.5vw;
+        margin-right: 3.5vw;
+    }
+
 }
 
 @media (max-width:600px) {

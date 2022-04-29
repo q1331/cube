@@ -945,7 +945,7 @@ div#bg-container-4 {
 
 #to-top {
     position: relative;
-    top: 100%;
+    top: 93vw;
     grid-row: 1;
     grid-column-start: 1;
     grid-column-end: 4;
@@ -976,6 +976,23 @@ div#bg-container-4 {
 }
 
 @media (max-width:600px) {
+    #to-top {
+        position: relative;
+        top: 105vw;
+        grid-row: 1;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        cursor: pointer;
+        text-align: center;
+        background-image: url(../images/div4/receive.png);
+        background-repeat: no-repeat;
+        background-size: 30vw 8vw;
+        width: 30vw;
+        height: 10vw;
+        display: block;
+        font-family: arb;
+    }
+
     div#bg-container-4 {
         background-image: url(../images/div4/bg-mobl.png);
         background-size: cover;
