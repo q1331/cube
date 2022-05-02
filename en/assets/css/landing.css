@@ -342,7 +342,7 @@ div#submit-button input {
 
 .div-box i {
     position: absolute;
-    width: 0.2vw;
+    width: 0.1vw;
     height: 3.4vw;
     background: url(../images/jjt_03.png) no-repeat;
     background-position: center;
@@ -367,9 +367,11 @@ input[type="text"] {
     }
 
     #slogan2 {
+        position: relative;
+        left: 1vw;
         color: white;
         margin: 5px;
-        font-size: 4vw;
+        font-size: 3.6vw;
         text-align: left;
         text-shadow: #444444 0.07em 0.07em 0.07em;
     }
@@ -627,13 +629,13 @@ input[type="text"] {
 
     .div-box i {
         position: absolute;
-        width: 0.2vw;
+        width: 0.1vw;
         height: 6.9vw;
         background: url(../images/jjt_03.png) no-repeat;
         background-position: center;
         background-size: cover;
         top: 32.5vw;
-        left: 16vw;
+        left: 17.5vw;
     }
 
     input[type="text"] {
