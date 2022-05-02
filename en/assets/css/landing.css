@@ -793,6 +793,8 @@ li+li {
 
 
 .narrative {
+    position: relative;
+    top: 3vw;
     margin: 0 10% 5% 10%;
     font-family: arl;
     font-size: 2vw;
