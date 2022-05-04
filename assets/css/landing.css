@@ -320,7 +320,7 @@ div#submit-button input {
     width: 8vw;
     height: 3vw;
     position: absolute;
-    left: 2.5vw;
+    left: 2vw;
     z-index: 999;
     background: none;
     border: none;
@@ -342,18 +342,18 @@ div#submit-button input {
     background-color: #f7f5f5;
     height: 3.4vw;
     border: 0.1vw solid #ccc;
-    text-indent: 5.5vw;
+    text-indent: 6.5vw;
 }
 
 .div-box i {
     position: absolute;
-    width: 0.1vw;
-    height: 3.2vw;
+    width: 2vw;
+    height: 1vw;
     background: url(../images/jjt_03.png) no-repeat;
     background-position: center;
     background-size: cover;
-    top: 14.85vw;
-    left: 7.8vw;
+    top: 15.85vw;
+    left: 6.9vw;
 }
 
 input[type="text"] {
@@ -648,13 +648,13 @@ input[type="text"] {
 
     .div-box i {
         position: absolute;
-        width: 0.1vw;
-        height: 6.7vw;
+        width: 2vw;
+        height: 1vw;
         background: url(../images/jjt_03.png) no-repeat;
         background-position: center;
         background-size: cover;
-        top: 35.5vw;
-        left: 18vw;
+        top: 38vw;
+        left: 16.7vw;
     }
 
     input[type="text"] {
