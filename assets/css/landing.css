@@ -262,7 +262,8 @@ div#submit-button input {
     position: relative;
     display: inline;
     height: 1.5vw;
-    top: 0.5vw;
+    bottom: 2vw;
+    left: 9vw;
 }
 
 #form-footer {
@@ -270,7 +271,8 @@ div#submit-button input {
     font-size: 1.2vw;
     display: inline;
     color: #656565;
-    top: 0.3vw;
+    bottom: 2.3vw;
+    left: 9vw;
 }
 
 #guard {
@@ -537,14 +539,16 @@ input[type="text"] {
         position: relative;
         display: inline;
         height: 3vw;
-        bottom: 2vw;
+        bottom: 8vw;
+        left: 19vw;
     }
 
     #form-footer {
         position: relative;
+        bottom: 8.3vw;
+        left: 19vw;
         font-size: 3vw;
         display: inline;
-        bottom: 2vw;
     }
 
     div#submit-button input {
@@ -1174,33 +1178,34 @@ div#bg-container-5 {
         text-align: center;
     }
 
+    .pad-nar {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 30vw;
+        overflow-wrap: normal;
+        justify-content: space-around;
+        position: relative;
+        bottom: 5vw;
+    }
+
     .pad-nar-txt-1 {
         text-align: left;
         width: 20vw;
         white-space: pre-wrap;
         font-size: 1.5vw;
-        bottom: 35vw;
-        left: 5vw;
-        position: relative;
     }
 
     .pad-nar-txt-2 {
         text-align: left;
         width: 20vw;
-        position: relative;
-        bottom: 35vw;
-        left: 9vw;
         white-space: pre-wrap;
         font-size: 1.5vw;
-        margin-bottom: 30vw;
     }
 
     .pad-nar-txt-3 {
         text-align: left;
         width: 20vw;
-        position: relative;
-        bottom: 37vw;
-        left: 10vw;
         white-space: pre-wrap;
         font-size: 1.5vw;
         margin-bottom: 30vw;
@@ -1210,12 +1215,12 @@ div#bg-container-5 {
         width: 35vw;
         height: 0.5vw;
         position: relative;
-        bottom: 36vw;
+        top: -35vw;
     }
 
     .pad-nar-title {
         position: relative;
-        bottom: 34vw;
+        top: -34vw;
         line-height: 1vw;
         color: brown;
         font-size: 1.5vw;
