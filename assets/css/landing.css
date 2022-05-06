@@ -1152,7 +1152,7 @@ div#bg-container-5 {
         position: relative;
         top: 50vw;
         grid-row: 1;
-        width: 100%;
+        width: 90vw;
         grid-column-start: 2;
         grid-column-end: 3;
         height: 55vw;
@@ -1216,6 +1216,7 @@ div#bg-container-5 {
         height: 0.5vw;
         position: relative;
         top: -35vw;
+        vertical-align: middle;
     }
 
     .pad-nar-title {
