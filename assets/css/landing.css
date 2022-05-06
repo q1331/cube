@@ -1112,7 +1112,6 @@ div#bg-container-5 {
     left: 9vw;
     white-space: pre-wrap;
     font-size: 1.5vw;
-    margin-bottom: 30vw;
 }
 
 .pad-nar-txt-3 {
@@ -1123,7 +1122,6 @@ div#bg-container-5 {
     left: 9vw;
     white-space: pre-wrap;
     font-size: 1.5vw;
-    margin-bottom: 30vw;
 }
 
 #scroller-2 {
@@ -1209,6 +1207,7 @@ div#bg-container-5 {
     .pad-nar-txt-3 {
         text-align: left;
         width: 20vw;
+        height: 10vw;
         white-space: pre-wrap;
         font-size: 1.5vw;
         margin-bottom: 30vw;
