@@ -1183,6 +1183,7 @@ div#bg-container-5 {
         flex-direction: row;
         flex-wrap: nowrap;
         width: 30vw;
+        height: 10vw;
         overflow-wrap: normal;
         justify-content: space-around;
         position: relative;
