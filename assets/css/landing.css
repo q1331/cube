@@ -1193,6 +1193,7 @@ div#bg-container-5 {
     .pad-nar-txt-1 {
         text-align: left;
         width: 20vw;
+        height: 10vw;
         white-space: pre-wrap;
         font-size: 1.5vw;
     }
@@ -1200,6 +1201,7 @@ div#bg-container-5 {
     .pad-nar-txt-2 {
         text-align: left;
         width: 20vw;
+        height: 10vw;
         white-space: pre-wrap;
         font-size: 1.5vw;
     }
