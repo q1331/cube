@@ -2,6 +2,10 @@ html * {
     max-height: 1000000px;
 }
 
+body {
+    -webkit-text-size-adjust: 100% !important;
+}
+
 @font-face {
     font-family: cu;
     src: url(../fonts/cu.TTF);
