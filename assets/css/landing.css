@@ -1024,11 +1024,17 @@ div#bg-container-4 {
         width: 90%;
         grid-column-start: 2;
         grid-column-end: 3;
-        height: 40vw;
+        height: 45vw;
         --swiper-pagination-color: #b43938;
         --swiper-pagination-bullet-size: 8px;
         --swiper-pagination-bullet-inactive-color: white;
         --swiper-pagination-bullet-inactive-opacity: 1;
+    }
+
+
+    .swiper-pagination {
+        position: relative;
+        top: 39vw;
     }
 
     #to-top {
@@ -1067,15 +1073,16 @@ div#bg-container-5 {
 }
 
 .pads {
-    width: 42vw;
+    width: 39vw;
+    height: 42vw;
     text-align: center;
 }
 
 .card2 {
     display: inline-block;
     text-align: center;
-    margin-left: -1vw;
-    margin-right: -1vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 
 .bar {
@@ -1144,6 +1151,8 @@ div#bg-container-5 {
 }
 
 @media (max-width:600px) {
+
+
     div#bg-container-5 {
         background-image: url(../images/div5/bg-mobl.png);
         background-size: cover;
@@ -1158,15 +1167,25 @@ div#bg-container-5 {
         position: relative;
         top: 50vw;
         grid-row: 1;
-        width: 90vw;
+        width: 95vw;
         grid-column-start: 2;
         grid-column-end: 3;
-        height: 55vw;
+        height: 65vw;
         overflow: hidden;
         --swiper-pagination-color: #b43938;
         --swiper-pagination-bullet-size: 8px;
         --swiper-pagination-bullet-inactive-color: white;
         --swiper-pagination-bullet-inactive-opacity: 1;
+    }
+
+    .card2 {
+        display: inline-block;
+        text-align: center;
+        margin-left: -1vw;
+        margin-right: -1vw;
+        background-size: cover;
+        height: 50vw;
+        width: 45vw;
     }
 
     .swiper-wrapper {
@@ -1180,7 +1199,7 @@ div#bg-container-5 {
 
     .swiper-pagination2 {
         position: relative;
-        top: 3vw;
+        top: 9vw;
         text-align: center;
     }
 

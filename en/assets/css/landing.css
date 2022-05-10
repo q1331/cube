@@ -1077,15 +1077,16 @@ div#bg-container-5 {
 }
 
 .pads {
-    width: 42vw;
+    width: 39vw;
+    height: 45vw;
     text-align: center;
 }
 
 .card2 {
     display: inline-block;
     text-align: center;
-    margin-left: -1vw;
-    margin-right: -1vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 
 .bar {
@@ -1165,6 +1166,18 @@ div#bg-container-5 {
 }
 
 @media (max-width:600px) {
+    .card2 {
+        display: inline-block;
+        text-align: center;
+        margin-left: -1vw;
+        margin-right: -1vw;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 50vw;
+        width: 45vw;
+    }
+
     div#bg-container-5 {
         background-image: url(../images/div5/bg-mobl.png);
         background-size: cover;
@@ -1211,7 +1224,7 @@ div#bg-container-5 {
     .swiper-pagination2 {
         text-align: center;
         position: relative;
-        top: 1vw;
+        top: 5vw;
     }
 
     .pad-nar-txt-1 {
